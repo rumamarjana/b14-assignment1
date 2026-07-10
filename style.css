@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+body{
+  font-family: "Inter", sans-serif;
+}
+/* common style  */
+
+.common-btn{
+   background: #1d4ed8;
+   color: white;
+   font-weight: 700;
+   padding: 15px 35px;
+   border: none;
+   border-radius: 8px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* nav section  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo-main, .nav-btn{
+    flex: 1;
+}
+.menu{
+    flex: 3;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+    color: #575757;
+    font-size: 20px;
+}
+.menu ul{}

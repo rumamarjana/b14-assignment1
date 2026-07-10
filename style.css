@@ -26,6 +26,22 @@ body{
     max-width: 1400px;
     margin: 0 auto;
 }
+/* section heading  */
+.section-heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.section-heading h2{
+    font-size: 50px;
+    color: #0d1b2a;
+}
+.section-heading p{
+    color: #575757;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+
 /* nav section  */
 .navbar{
     display: flex;
@@ -54,7 +70,7 @@ body{
     color: #575757;
     font-size: 20px;
 }
-.menu ul{}
+
 
 /* hero  */
 .hero{
@@ -135,7 +151,7 @@ body{
     flex: 1;
 }
 .speaker-box h3{
-    color: #111111;
+    color: #0d1b2a;
     font-size: 25px;
     padding: 10px 0;
     padding-left: 20px;
@@ -151,4 +167,105 @@ body{
    font-size: 16px;
    color: #575757;
    padding-left: 20px;
+}
+
+/* princing  */
+.princing-main{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    
+}
+.princing-card,
+.princing-card-1,
+.princing-card-2{
+    flex: 1;
+    padding: 35px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.princing-card-1{
+    background-color: #0d1b2a;
+}
+
+
+.princing-text{
+    padding-bottom: 20px;
+}
+
+.princing-text span{
+    font-size: 14px;
+    display: inline-block;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.princing-text h2{
+    color: #0d1b2a;
+    font-size: 50px;
+    list-style: 1;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.princing-text p{
+   color: #888;
+   font-size: 13px;
+   font-weight: 400;
+}
+
+.princing-list{
+    border-top: 1px solid  #e5e7eb;
+     padding-top: 20px;
+}
+.princing-list ul{
+  color: #1d4ed8;
+}
+.princing-list ul li{
+     color: #333;
+     font-size: 14px;
+     padding: 10px 0;
+}
+
+.princing-btn a{
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    width: 320px;
+    display: inline-block;
+    text-align: center;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.princing-btn a:hover{
+   color: #e5e7eb;
+   background-color: #1d4ed8;
+   transition:0.3s;
+}
+.pri-1{
+   color: #93c5fd !important; 
+}
+.pri-2{
+    color: white !important;
+}
+.pri-3 {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.pri-4 li{
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.pri-5{
+    background-color: #2563eb !important;
+    color: white !important;
+}
+.pri-5:hover{
+    border-color: white !important;
+    background-color: white !important;
+    color: #2563eb !important;
 }

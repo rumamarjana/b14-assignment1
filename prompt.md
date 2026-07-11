@@ -1,0 +1,1 @@
+ give me a relevant section for dev confercence wesite divided into two div left & right using image
